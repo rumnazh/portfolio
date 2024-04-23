@@ -1,0 +1,250 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #102C57;
+}
+section{
+    min-height: 95vh;
+}
+.hero{
+    background-color: #102C57;
+    color: #DAC0A3;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
+
+}
+.korobka3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 95vh;
+
+}
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+.textcenter{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:#102C57;
+    background-color: #DAC0A3;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #DAC0A3;
+}
+nav{
+    border: 1px solid #DAC0A3 ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #DAC0A3;
+    background-color: #102C57;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /position: fixed;/
+}
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    color: #DAC0A3;
+}
+.skills {
+    grid-column: 1 / span 2;
+    margin-top: 50px;
+    color: #DAC0A3;
+}
+.half {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.left{
+    color: #DAC0A3;
+}
+.right{
+    position: absolute;
+    right: 80px;
+    color: #DAC0A3;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #074173;
+    border-radius: 30px;
+    color: #DAC0A3;
+}
+
+
+/vsyo pro piatno/
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 800px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #9bb3c7 ;
+}
+img{
+    z-index: 2;
+}
+
+/pro about me/
+.aboutme {
+    height: 100vh;
+    background-color: #102C57;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #DAC0A3 ;
+}
+.kartinka {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+.aboutmetext{
+    width: 600px;
+    font-size: 23px;
+    font-family: "Sedan", sans-serif;
+    color: #DAC0A3;
+}
+.ahaha {
+    margin: 0px 0px 40px 170px;
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    color: #DAC0A3;
+}
+
+/Все про блог/
+#myblog{
+    padding: 150px 0;
+}
+.card{
+    width: 500px;
+    background-color: #DAC0A3;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 100%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+
+
+
+.row0 {
+    display: flex;
+    align-items: center;
+}
+.row0 h2 {
+    margin-right: 10px;
+    width: 150px; 
+}
+.row1 {
+    display: flex;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#778da9 ;
+    margin-right: 5px;
+}
+.circle.filled {
+    background-color: #DAC0A3;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
